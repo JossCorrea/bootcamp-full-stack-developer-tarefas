@@ -22,7 +22,10 @@ A função acima nomeada não é executada automaticamente, para chamar a funç�
 MinhaFuncao(10)
 ```
 
-Para saber mais, acesse: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Functions
+Para saber mais, acesse: 
+
+- [Funções](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Functions)
+- [Expressões Regulares](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_Expressions)
 
 ## Colocando em Prática
 
