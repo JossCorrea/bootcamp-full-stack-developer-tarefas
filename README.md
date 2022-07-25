@@ -1,57 +1,38 @@
-# bootcamp-developer-tarefas
+# Comece por aqui
 
-## Organização das pastas
+- [Preparando-se para entregar as tarefas](#preparando-se-para-entregar-as-tarefas)
+- [Configurando o ambiente](#configurando-o-ambiente)
+- [Clonando o repositório](#clonando-o-repositório)
+- [Iniciando as tarefas](#iniciando-as-tarefas)
+- [Como realizar as atividades](#como-realizar-as-atividades)
+- [Como entregar as atividades](#como-entregar-as-atividades)
 
-Nossas pastas estão separadas por contextos de conteúdo.
+## Preparando-se para entregar as tarefas
 
-- [01] O que são funções;
-- [02] Comandos condicionais;
-- [03] Comandos de repetição;
-- [04] Objetos, métodos e listas.
+Nossas tarefas estão separadas em contextos de atividades relacionados a cada semana/aula de conteúdo. Os exercícios foram programados para reforçar a proposta de cada semana, praticando-os. Nos próximos tópicos, iremos apresentar como configurar o ambiente e dar início para a criação das soluções dos exercícios.
 
-## Organização dos exercícios
+### Configurando o ambiente
 
-Cada pasta tem exercícios relacionados aos conteúdos da semana para colocar em prática. A ideia é fortalecer e treinar as habilidades vistas durante o curso. Algumas tarefas possuem testes automatizados que validam o sucesso ou falha do código escrito. Isso ajuda a viabilizar e a treinar um dos itens importantes em programação: os testes. Além disso, a todo momento, você poderá enviar dúvidas em nosso canal do Discord. Elas servem inicialmente como guia para as suas atividades.
+Antes de iniciar os exercícios, garanta que todos os programas foram instalados e toda a configuração fora realizada. Mas não se preocupe em ter decorado cada um dos passos. Você pode fazer essa verificação com o nosso conteúdo de [setup](SETUP.md).
 
-## Como realizar as atividades
+### Clonando o repositório
 
-Cada pasta contém um breve README.md com o exercício proposto. A ideia é ter uma variedade de exercícios curtos que validem e te ajudem a dominar programação reforçcando sua base de código. Para realilzar as atividades, você poderá copiar este repositório com a opção de `use this template`. Isso irá copiar o repositório para o seu perfil.
+Para realilzar as atividades, você poderá copiar este repositório com a opção de `use this template`. Isso irá copiar e criar um repositório para o seu perfil com toda estrutura desse existente.
 
-## Como iniciar os exercícios
+### Iniciando as tarefas
 
-Antes de iniciar os exercícios, lembre-se de ter configurado os itens mencionados no arquivo de SETUP.md. Abra o terminal de comando na pasta no repositório clonado e execute o comando:
+Nossas pastas estão separadas por tarefas organizadas por cada conteúdo.
 
-> npm install
+- [tarefa-01] Variáveis, tipos e operadores;
+- [tarefa-02] O que são funções;
+- [tarefa-03] Comandos condicionais;
+- [tarefa-04] Comandos de repetição;
+- [tarefa-05] Objetos, métodos e listas.
 
-Cada pasta contém um arquivo de `index.js` onde o exercício será desenvolvido e um arquivo de teste que irá validar a solução do seu exercício: `index.spec.js`.
-Cada arquivo `index.js` também indica o nome da função que deverá ser criada. Isso foi criado para facilitar e automatizar os testes de validação.
+### Como realizar as atividades
 
-Na última linha de cada arquivo index, você encontrará algo parecido como:
+Dentro de cada tarefa, você irá encontrar um README.md explicando o passo a passo de cada entrega.
 
-```js
-module.exports = NomeDaFuncaoDefinida;
-```
+### Como entregar as atividades
 
-Portanto, quando for criar a função, mantenha o mesmo nome para que os testes funcionem.
-
-```js
-function NomeDaFuncaoDefinida() {
-    // escreva seu código aqui
-}
-
-module.exports = NomeDaFuncaoDefinida;
-```
-
-## Validando os exercícios
-
-Com o prompt de comando aberto em cada diretório, você pode executar os exercícios com o comando:
-
-> node index.js
-
-Para validar todos os exercícios, na pasta src, você pode executar o comando:
-
-> npm test
-
-Para validar somente o exercício de pasta específica, no prompt de comando, na pasta src, você pode executar o comando:
-
-> npm test 02\ImparOuPar
+Para cada tarefa, você deverá copiar o link do repositório do seu GitHub com a tarefa mencionada e publicar em nosso Discord.
