@@ -1,5 +1,12 @@
 # Tarefa 02 - Criando funções
 
+- [O que são funções](#o-que-são-funções)
+- [Antes de iniciar os exercícios](#antes-de-iniciar-os-exercícios)
+    - [Executando o exercício](#executando-o-exercício)
+    - [Validando a solução](#validando-a-solução)
+- [Criando a solução para o exercício](#criando-a-solução-para-o-exercício)
+- [Realizando a entrega do exercício](#realizando-a-entrega-do-exercício)
+
 ## O que são funções
 
 Uma função é um procedimento, um conjunto de instruções que executa uma tarefa, calcula um valor ou realiza alguma ação.
@@ -54,13 +61,13 @@ function NomeDaFuncaoDefinida() {
 module.exports = NomeDaFuncaoDefinida;
 ```
 
-### Rodando o exercício
+### Executando o exercício
 
 Com o prompt de comando aberto no diretório 02, você pode executar os exercícios com o comando:
 
 > node index.js
 
-### Executando os testes
+### Validando a solução
 
 Para validar todos os exercícios, na pasta src, você pode executar o comando:
 
@@ -74,3 +81,7 @@ Para validar somente o exercício de pasta específica, no prompt de comando, na
 
 Para validar os conteúdos apresentados, criamos três exercícios: ColocandoEmPratica, FuncaoComParametro, HelloWorld.
 Esses exercícios tem como objetivo colocar em prátoca as declarações de variáveis, a criação de funções com e sem parâmetro e como chamar as funções.
+
+## Realizando a entrega do exercício
+
+Copie e cole o endereço da pasta em nosso Discord no canal: #tarefa-02.
